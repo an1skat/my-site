@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metal Cats</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="bg-body-tertiary">
+    <header>
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand fs-3 text-light" href="#">Metal Cats</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Cats</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Dropdown
+                    </a>
+                    <ul class="bg-body-tertiary dropdown-menu">
+                      <li><a class="dropdown-item" href="#">About Cats</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">About Us</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-primary" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="py-5">
+        <div class="container">
+          <h1 class="text-center text-uppercase fw-semibold text-light">
+            Metal Cats
+          </h1>
+          <p class="text-center text-primary">
+            the first market with metal cats
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <h2 class="fs-1 fw-normal mb-4 text-center text-light">Gallery</h2>
+            <div class="card-group gap-3">
+              <div class="card bg-secondary">
+                <img src="./img/cat-img1.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title text-light">Kurt Cobain</h5>
+                  <p class="card-text text-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias nemo magnam placeat ipsa rem maxime enim ullam,
+                    sit voluptate! Possimus.
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary col-4">Read more</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary"
+                    >Last updated 3 mins ago</small
+                  >
+                </div>
+              </div>
+              <div class="card bg-secondary">
+                <img src="./img/cat-img2.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title text-light">Mick Thomson</h5>
+                  <p class="card-text text-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veritatis a deleniti vitae, inventore quia natus rem
+                    molestiae dicta architecto et saepe hic maiores? Quas,
+                    fugiat odio? Unde culpa tempora modi.
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary col-4">Read more</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary"
+                    >Last updated 3 mins ago</small
+                  >
+                </div>
+              </div>
+              <div class="card bg-secondary">
+                <img src="./img/cat-img3.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title text-light">Kirk Lee Hammett</h5>
+                  <p class="card-text text-body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quos dignissimos veniam porro exercitationem in possimus ut.
+                    Fugiat enim, veniam incidunt facere est delectus explicabo
+                    similique?
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary col-4">Read more</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary"
+                    >Last updated 3 mins ago</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="text-center text-light text-uppercase">Listen Music</h2>
+            <div class="d-flex gap-5 pt-4">
+              <div class="music col-4">
+                <h3 class="music__title">Nirvana - Smells Like Teen Spirit:</h3>
+                <audio
+                  class="mt-3"
+                  controls
+                  src="./audio/Nirvana-SmellsLikeTeenSpirit.mp3"
+                ></audio>
+              </div>
+              <div class="music col-4">
+                <h3 class="music__title">Metallica - Master Of Puppets:</h3>
+                <audio
+                  class="mt-3"
+                  controls
+                  src="./audio/Metallica-MasterOfPuppets.mp3"
+                ></audio>
+              </div>
+              <div class="music col-4">
+                <h3 class="music__title">Slipknot - Custer:</h3>
+                <audio
+                  class="mt-3"
+                  controls
+                  src="./audio/Slipknot-Custer-world75.mp3"
+                ></audio>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center text-light">Our Team In Social Media:</h2>
+          <div class="d-flex justify-content-evenly py-4">
+            <a href="#" class="link">
+              <svg width="60" height="60" class="icon">
+                <use href="./img/icons.svg#icon-inst"></use>
+              </svg>
+            </a>
+            <a href="#" class="link">
+              <svg width="60" height="60" class="icon">
+                <use href="./img/icons.svg#icon-twit"></use>
+              </svg>
+            </a>
+            <a href="#" class="link">
+              <svg width="60" height="60" class="icon">
+                <use href="./img/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+body {
+  background-color: #2b3035;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+.music__title {
+    color: #9da2a7;
+    display: inline;
+}
+.icon {
+    fill: #9da2a7;
+    transition: fill 0.3s;
+}
+.icon:hover {
+    fill: #2196f3;
+}
+footer {
+    padding-top: 100px;
+}
